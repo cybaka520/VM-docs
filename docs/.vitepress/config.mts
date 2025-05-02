@@ -1,35 +1,27 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig } from 'vitepress'
 
-// refer https://vitepress.dev/reference/site-config for details
+// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'en-US',
-  title: 'VitePress',
-  description: 'Vite & Vue powered static site generator.',
-
+  title: "VM docs",
+  description: "虚拟机文档",
   themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Example', link: '/example' },
-
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
-
-      // ...
+      { text: '主页', link: '/' }
     ],
 
     sidebar: [
       {
-        // text: 'Guide',
+        text: 'Examples',
         items: [
-          { text: 'Example', link: '/example' },
-          // ...
-        ],
-      },
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      }
     ],
-  },
-});
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/cybaka520/VM-docs/' }
+    ]
+  }
+})
