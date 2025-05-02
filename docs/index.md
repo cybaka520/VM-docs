@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
+  name: VM-docs
+  text: 虚拟机文档
   tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
   actions:
     - theme: brand
