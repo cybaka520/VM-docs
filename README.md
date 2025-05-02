@@ -1,3 +1,3 @@
 # VM-docs
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/cybaka520/VM-docs)
+一个基于vitepress的虚拟机文档
