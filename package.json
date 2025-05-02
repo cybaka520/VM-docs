@@ -1,13 +1,10 @@
 {
-  "name": "your_project_name",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
-  },
-  "dependencies": {
-    "vitepress": "^2.8.0"
-  }
+   "devDependencies": {
+     "vitepress": "^1.6.3"
+   },
+    "scripts": {
+     "docs:dev": "vitepress dev",
+     "docs:build": "vitepress build",
+     "docs:preview": "vitepress preview"
+      }
 }
