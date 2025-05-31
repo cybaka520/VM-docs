@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 16
       - run: npm i pnpm -g
-      - run pnpm i --dev vitepress vue
+      - run  pnpm i --dev vitepress vue
       - run: npm install --frozen-lockfile
 
       - name: Build
