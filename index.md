@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /加入我们/QQ群
+      link: /jrwm/QQq
     - theme: alt
       text: 在Github上查看
       link: https://github.com/cybaka520/VM-docs
