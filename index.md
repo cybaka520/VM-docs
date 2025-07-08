@@ -6,7 +6,7 @@ hero:
   text: "虚拟机文档"
   tagline: 在这里找到各种虚拟机的使用方法
   image:
-   src: /VM docs.png
+   src: /.vitepress/VM docs.png
    alt: VM docs
   actions:
     - theme: brand
