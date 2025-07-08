@@ -16,7 +16,8 @@ export default defineConfig({
         text: '加入我们',
         items: [
           { text: 'QQ群', link: '/jrwm/QQq' },
-          { text: 'QQ群规', link: '/jrwm/QQqg' }
+          { text: 'QQ群规', link: '/jrwm/QQqg' },
+          { text: 'hub', link: '/hub/hub' }
         ]
       }
     ],
